@@ -19,8 +19,6 @@ class AuthTest {
     @BeforeEach
     void setup() {
         open("http://localhost:9999");
-        Configuration.holdBrowserOpen = true;
-        Configuration.browserSize = "1800x1100";
         Configuration.timeout = 15000;
     }
 
